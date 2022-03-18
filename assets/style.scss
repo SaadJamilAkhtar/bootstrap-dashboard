@@ -78,3 +78,13 @@ body{
     line-height: 2rem;
     width: 85%;
 }
+
+
+.link-report{
+    a{
+        color: $dsat-blue;
+    }
+    .active{
+        color: white;
+    }
+}

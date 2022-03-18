@@ -65,4 +65,12 @@ body {
   line-height: 2rem;
   width: 85%;
 }
+
+.link-report a {
+  color: #6f76c8;
+}
+
+.link-report .active {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
