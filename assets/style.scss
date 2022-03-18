@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 $primary-color : hsl(246, 80%, 60%);
 $Light-red: hsl(15, 100%, 70%);
 $Soft-blue : hsl(195, 74%, 62%);
@@ -11,16 +13,27 @@ $dark-blue : hsl(235, 46%, 20%);
 $dsat-blue : hsl(235, 45%, 61%);
 $pale-blue : hsl(236, 100%, 87%);
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
+    font-family: Rubik;
     min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: $v-dark-blue;
+    color: white;
 }
 
 
 #main-content{
-    
+    width: 85vw;
 }
 
 .avatar-img{
@@ -31,5 +44,28 @@ body{
 }
 
 #side-card{
+    background: $primary-color;
+    border-radius: 1rem;
+    padding: 2rem;
+    padding-right: 13rem;
+    padding-bottom: 5rem;
+}
+
+#avatar-img-block{
+    margin-bottom: 2rem;
+    
+}
+
+#report-heading{
+    font-size: 15px;
+    width: 5rem;
+    color: rgba(240,240,240,0.7);
+}
+
+
+#name{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 2.75rem;
 
 }
