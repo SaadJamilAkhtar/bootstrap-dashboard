@@ -46,9 +46,10 @@ body{
 #side-card{
     background: $primary-color;
     border-radius: 1rem;
-    padding: 2rem;
-    padding-right: 13rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-bottom: 4rem;
+    
 }
 
 #avatar-img-block{
@@ -68,4 +69,12 @@ body{
     font-weight: 300;
     line-height: 2.75rem;
 
+}
+
+#profile-card{
+    background: $dark-blue;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    width: 85%;
 }
