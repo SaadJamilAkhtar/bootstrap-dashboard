@@ -16,7 +16,7 @@ body {
 
 #main-content {
   margin-top: 20vh;
-  width: 85vw;
+  width: 75vw;
 }
 
 .avatar-img {
@@ -55,7 +55,7 @@ body {
   border-radius: 1rem;
   padding-bottom: 1rem;
   line-height: 2rem;
-  width: 85%;
+  width: 70%;
 }
 
 .link-report a {
@@ -73,18 +73,18 @@ body {
 
 #main-card {
   background: lightblue;
-  padding-top: 5rem;
+  padding-top: 3rem;
   margin-bottom: 3rem;
   border-radius: 1rem;
 }
 
 #card-content {
   border-radius: 1rem;
-  background-color: black;
+  background-color: #1c1f4a;
 }
 
 #card-group {
-  margin-left: -3.5rem;
+  margin-left: -6.75rem;
 }
 
 @media (max-width: 480px) {
