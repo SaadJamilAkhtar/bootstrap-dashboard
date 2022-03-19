@@ -24,15 +24,13 @@ body{
     font-family: Rubik;
     min-height: 100vh;
     min-width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: $v-dark-blue;
     color: white;
 }
 
 
 #main-content{
+    margin-top: 20vh;
     width: 85vw;
 }
 
@@ -83,8 +81,37 @@ body{
 .link-report{
     a{
         color: $dsat-blue;
+
+    &:hover{
+        color: white;
+        text-decoration: none;
+    }
     }
     .active{
         color: white;
     }
+}
+
+#main-card{
+    background: lightblue;
+    padding-top: 5rem;
+    margin-bottom:3rem;
+    border-radius: 1rem;
+    
+}
+
+#card-content{
+    background-color: yellow;
+}
+
+#card-group{
+    margin-left: -3.5rem;
+}
+
+@media (max-width: 480px) {
+    #card-group{
+        max-width: 100%;
+        margin-left:0;
+    }
+
 }

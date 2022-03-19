@@ -10,20 +10,12 @@ body {
   font-family: Rubik;
   min-height: 100vh;
   min-width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background: #0f1424;
   color: white;
 }
 
 #main-content {
+  margin-top: 20vh;
   width: 85vw;
 }
 
@@ -70,7 +62,34 @@ body {
   color: #6f76c8;
 }
 
+.link-report a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .link-report .active {
   color: white;
+}
+
+#main-card {
+  background: lightblue;
+  padding-top: 5rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+}
+
+#card-content {
+  background-color: yellow;
+}
+
+#card-group {
+  margin-left: -3.5rem;
+}
+
+@media (max-width: 480px) {
+  #card-group {
+    max-width: 100%;
+    margin-left: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
