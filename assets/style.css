@@ -79,7 +79,8 @@ body {
 }
 
 #card-content {
-  background-color: yellow;
+  border-radius: 1rem;
+  background-color: black;
 }
 
 #card-group {
@@ -90,6 +91,12 @@ body {
   #card-group {
     max-width: 100%;
     margin-left: 0;
+  }
+  #main-content {
+    width: 100%;
+  }
+  #profile-card {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
