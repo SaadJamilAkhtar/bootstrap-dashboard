@@ -111,13 +111,19 @@ body{
 .play-card{
     background: url('./images/icon-play.svg'), $Soft-blue;
     background-repeat: no-repeat;
-    background-position: 90% -10%;
+    background-position: 90% -5%;
 }
 
 .study-card{
     background: url('./images/icon-study.svg'), $Light-red;
     background-repeat: no-repeat;
-    background-position: 90% -10%;
+    background-position: 90% -5%;
+}
+
+.excercise-card{
+    background: url('./images/icon-exercise.svg'), $Lime-green;
+    background-repeat: no-repeat;
+    background-position: 90% 0%;
 }
 
 #card-content{
