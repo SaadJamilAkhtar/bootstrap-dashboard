@@ -104,6 +104,18 @@ body {
   background-position: 90% 0%;
 }
 
+.social-card {
+  background: url("./images/icon-social.svg"), #7536d3;
+  background-repeat: no-repeat;
+  background-position: 90% -10%;
+}
+
+.care-card {
+  background: url("./images/icon-self-care.svg"), #f1c65b;
+  background-repeat: no-repeat;
+  background-position: 90% -10%;
+}
+
 #card-content {
   border-radius: 1rem;
   background-color: #1c1f4a;

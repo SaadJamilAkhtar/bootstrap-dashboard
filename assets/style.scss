@@ -126,6 +126,18 @@ body{
     background-position: 90% 0%;
 }
 
+.social-card{
+    background: url('./images/icon-social.svg'), $Violet;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+}
+
+.care-card{
+    background: url('./images/icon-self-care.svg'), $Soft-orange;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+}
+
 #card-content{
     border-radius: 1rem;
     background-color: $dark-blue;
