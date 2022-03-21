@@ -13,6 +13,11 @@ $dark-blue : hsl(235, 46%, 20%);
 $dsat-blue : hsl(235, 45%, 61%);
 $pale-blue : hsl(236, 100%, 87%);
 
+
+@mixin transition-mixin {
+    transition: all 0.25s ease-out;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -75,6 +80,7 @@ body{
     padding-bottom: 1rem;
     line-height: 2rem;
     width: 70%;
+
 }
 
 
@@ -99,6 +105,11 @@ body{
     border-radius: 1rem 1rem 2rem 2rem;
     width: 90%;
     height: 27vh;
+    
+    @include transition-mixin;
+    &:hover{
+        transform: perspective(1000px) translateZ(100px) rotateX(25deg);
+    }
     
 }
 
@@ -144,7 +155,7 @@ body{
     padding-left: 2rem;
     padding-top: 2rem;
     height: 100%;
-
+    
     &:hover{
         background-color: $dsat-blue;
         cursor: pointer;

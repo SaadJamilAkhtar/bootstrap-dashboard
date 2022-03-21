@@ -78,6 +78,13 @@ body {
   border-radius: 1rem 1rem 2rem 2rem;
   width: 90%;
   height: 27vh;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+.main-card:hover {
+  -webkit-transform: perspective(1000px) translateZ(100px) rotateX(25deg);
+          transform: perspective(1000px) translateZ(100px) rotateX(25deg);
 }
 
 .work-card {
