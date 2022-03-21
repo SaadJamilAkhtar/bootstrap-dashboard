@@ -145,12 +145,20 @@ body{
     padding-top: 2rem;
     height: 100%;
 
+    &:hover{
+        background-color: $dsat-blue;
+        cursor: pointer;
+    }
+
     h4{
         padding-left: 2rem;
         margin-top: -1.5rem;
-
+        font-size: 1.5rem;
         &:hover{
             cursor: pointer;
+            font-size: 2rem;
+            margin-top: -2rem;
+
         }
     }
 

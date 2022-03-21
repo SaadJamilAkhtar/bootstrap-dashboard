@@ -124,13 +124,21 @@ body {
   height: 100%;
 }
 
+#card-content:hover {
+  background-color: #6f76c8;
+  cursor: pointer;
+}
+
 #card-content h4 {
   padding-left: 2rem;
   margin-top: -1.5rem;
+  font-size: 1.5rem;
 }
 
 #card-content h4:hover {
   cursor: pointer;
+  font-size: 2rem;
+  margin-top: -2rem;
 }
 
 #card-content h6 {
