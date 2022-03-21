@@ -188,8 +188,13 @@ body{
         margin-left:0;
     }
     #main-content{
-        // margin-top: 20vh;
+        
         width: 100%;
+
+        p {
+            margin-left: 50vw;
+            margin-top: -6.5vh;
+        }
     }
     #profile-card{
         width: 100%;
