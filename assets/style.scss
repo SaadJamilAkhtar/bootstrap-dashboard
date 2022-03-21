@@ -147,11 +147,26 @@ body{
 
     h4{
         padding-left: 2rem;
-        margin-top: -0.75rem;
+        margin-top: -1.5rem;
 
         &:hover{
             cursor: pointer;
         }
+    }
+
+    h6{
+        margin-top: -0.75rem;
+    }
+
+    h2{
+        padding-top: 1rem;
+        font-size: 3rem;
+    }
+
+    p{
+        color: rgba(232, 231, 238, 0.8);
+        font-size: 0.8rem;
+        margin-top: -0.5rem;
     }
 }
 
