@@ -179,5 +179,24 @@ body {
   .main-card {
     width: 100%;
   }
+  #identity {
+    margin-left: 26.5vw;
+    margin-top: -10vh;
+  }
+  #identity #name {
+    font-size: 1.75rem;
+    margin-top: -0.5rem;
+  }
+  #avatar-img-block {
+    margin-bottom: 0rem;
+  }
+  #links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #links .link-report {
+    padding-right: 19vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */

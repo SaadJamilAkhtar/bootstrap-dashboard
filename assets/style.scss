@@ -205,4 +205,25 @@ body{
         width: 100%;
     }
 
+    #identity{
+        margin-left: 26.5vw;
+        margin-top: -10vh;
+
+        #name{
+            font-size: 1.75rem;
+            margin-top: -0.5rem;
+        }
+    }
+
+    #avatar-img-block{
+        margin-bottom: 0rem;
+    }
+
+    #links{
+        display: flex;
+        .link-report{
+            padding-right: 19vw;
+        }
+    }
+
 }
